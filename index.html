@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive pricing component</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="./script.js"></script>
+</head>
+<body>
+  <div class="bg-pattern">
+    <img src="./images/bg-pattern.svg" alt="">
+  </div>
+  <div class="container">
+    <header>
+      <div class="pattern-circles">
+        <img src="./images/pattern-circles.svg" alt="">
+      </div>
+      <h2>Simple, traffic-based pricing</h2>
+      <p>Sign-up for our 30-day trial. No credit card required.</p>
+    </header>    
+    <!-- ====== Pricing component ====== -->
+    <div class="pricingcard">
+      <div class="pricing">
+        <p><span class="pageviews">100K</span> pageviews</p>
+        <p><span class="price">$16.00</span> /month</p>
+      </div>
+      <!-- ====== slider ====== -->
+    <div class="range">
+      <input type="range" min="1" max="200" value="100" id="myinput">
+      <div class="selector">
+        <!-- <img class="slider-icon" src="./images/icon-slider.svg" alt=""> -->
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="billing-choice">
+      <span>Monthly Billing</span>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="toggle round"></span>
+      </label>
+    <span>Yearly Billing</span> <span class="red">25% discount</span>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="card-bottom">
+      <div class="gains">
+        <ul>
+          <li><img src="./images/icon-check.svg" alt=""> Unlimited websites</li>
+          <li><img src="./images/icon-check.svg" alt=""> 100% data ownership</li>
+          <li><img src="./images/icon-check.svg" alt="">  Email reports</li>
+        </ul>
+      </div>
+      <button class="submit">Start my trial</button>
+    </div>
+  </div>
+  
+
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Timi Adenuga</a>.
+  </div>
+
+</body>
+</html>
